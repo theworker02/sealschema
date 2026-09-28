@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/sealschema",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Seal and reshape schema text streams with deterministic transforms.",
+  "bin": {
+    "sealschema": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/sealschema.git"
+  },
+  "homepage": "https://theworker02.github.io/sealschema/",
+  "keywords": [
+    "seal",
+    "schema",
+    "text",
+    "cli",
+    "toolkit"
+  ]
+}
